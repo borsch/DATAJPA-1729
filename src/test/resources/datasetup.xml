@@ -1,0 +1,7 @@
+<dataset>
+    <lazy_entity id="1" plain_field="lazy plain field" />
+
+    <main_entity id="1" plain_field="main plain field" lazy_id="1" />
+    <main_entity id="2" plain_field="main plain field" lazy_id="1" />
+    <main_entity id="3" plain_field="main plain field" lazy_id="1" />
+</dataset>
