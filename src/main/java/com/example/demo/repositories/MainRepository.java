@@ -11,6 +11,7 @@ import com.example.demo.entities.MainEntity;
 
 public interface MainRepository extends JpaRepository<MainEntity, Long>, JpaSpecificationExecutor<MainEntity> {
 
+    // change return type to java.util.Collection
     List<MainEntity> findByIdIn(Set<Long> ids);
 
 }
